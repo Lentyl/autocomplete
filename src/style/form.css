@@ -1,0 +1,29 @@
+.App{
+    display: flex;
+}
+.form{
+    padding: 10px auto;
+    margin: 50px auto;
+}
+
+.form__btn{
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+}
+
+.form__list{
+    padding: 0;
+    text-align: center;
+    width: 200px;
+    list-style: none;
+    width: 200px;
+   
+}
+
+.form__list-item{
+    display: block;
+    margin-top: 6px;
+    border: 1px solid black;
+    
+}
