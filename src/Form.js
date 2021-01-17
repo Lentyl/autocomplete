@@ -17,7 +17,6 @@ const Form = ({usersNames}) => {
          return (<li className='form__list-item'>{userName}</li>)
      }
      return null
-     
     })
 
     return (
@@ -28,8 +27,6 @@ const Form = ({usersNames}) => {
                 <ul className="form__list">
                     {inputName.length!==0&& searchedName}
                 </ul>
-                
-                 
             </form>
         </div>
     )
