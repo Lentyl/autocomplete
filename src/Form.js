@@ -11,12 +11,12 @@ const Form = ({usersNames}) => {
     let searchedName = [];
 
     searchedName = usersNames.map(userName => {
-     const nameNumber =  userName.toUpperCase().search(inputName.toUpperCase())
+        const nameNumber =  userName.toUpperCase().search(inputName.toUpperCase())
 
-     if(nameNumber === 0){
-         return (<li className='form__list-item'>{userName}</li>)
-     }
-     return null
+            if(nameNumber === 0){
+            return (<li className='form__list-item'>{userName}</li>)
+            }
+        return null
     })
 
     return (
